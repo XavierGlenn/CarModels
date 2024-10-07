@@ -31,9 +31,6 @@ public class Main {
             if (price < 0) {
                 throw new IllegalArgumentException("Price cannot be negative");
             }
-            this.price = price;
-            {
-            }
         }
     }
 }
